@@ -1,0 +1,100 @@
+/* General Container Styling */
+.Patient-details-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #28CDA7;
+    border-radius: 15px;
+    padding: 30px;
+    width: 60%;
+    height: 60vh;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    border: 5px solid #f8dede;
+    position: relative;
+  }
+  
+  /* Doctor Details Section */
+  .patient-details {
+    background-color: #1F7552;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    height: 30vh;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+  
+  .patient-details p {
+    font-size: 1.1em;
+    margin: 8px 0;
+    line-height: 1.6;
+  }
+  
+  .patient-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #61DAAA;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    
+  
+    margin-right: 40px;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .patient-card img {
+    width: 150px; /* Fixed image size */
+    height: 150px;
+    border-radius: 10px; /* Slightly rounded corners */
+    object-fit: cover; /* Ensures image scales well */
+    margin-bottom: 15px; /* Space below the image */
+  }
+  
+  .patient-card p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #fff; /* White text for clarity */
+  }
+  
+  
+  
+  .img-container p:last-child {
+    color: #2e7d32;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  
+  
+  .title{
+   
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 60%;
+    margin-left: 50px;
+    text-align: left;
+    background-color: transparent;
+    font-family: 'Arial', sans-serif;
+  
+  }
+  .title h1{
+  
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline
+  }
+  
+  
+  
+  

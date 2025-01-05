@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #ffffff;
+  border-bottom: 1px  #e0e0e0;
+  height: auto;
+ 
+}
+
+.navbar-left{
+
+ display: flex;
+ justify-content: flex-start;
+}
+
+
+
+.navbar-links ul {
+ 
+    display: flex; /* Enables flexbox layout */
+    flex-direction: row; /* Arranges items in a column */
+    list-style: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 25px; /* Removes default margin */
+    align-items: flex-start; /* Aligns items to the start of the column */
+    column-gap: 7cap; 
+    /* Adds space between each item */
+
+  
+}
+
+.navbar-links li {
+  margin-bottom: 20px; 
+  padding: 0;
+  
+  /* Adds 20px of space between items */
+}
+
+.navbar-links li:last-child {
+  margin-bottom: 0; /* Removes extra margin from the last item */
+}
+
+
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Adds space between notification and user profile */
+}
+
+.notification-bell {
+  position: relative;
+  font-size: 1.5rem; /* Adjust size of the bell icon */
+  cursor: pointer;
+}
+
+.notification-dot {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  border: 2px solid white; /* Matches the background of the navbar */
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 10px;
+  margin-top: auto;
+   /* Space between user icon and name */
+}
+
+.user-icon {
+  font-size: 1.5rem; /* Adjust size of the user icon */
+  cursor: pointer;
+}
+
+.user-name {
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+

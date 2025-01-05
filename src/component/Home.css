@@ -1,0 +1,96 @@
+.Container {
+    display: flex;
+
+    height: 100%;
+    /* Full viewport height */
+    background: linear-gradient(to bottom right, #2CA089, #3CB397);
+    /* Gradient background */
+    flex-direction: column;
+
+}
+
+.heading {
+
+    margin-top: 50px;
+}
+
+.heading h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    top: 40px;
+}
+
+.para-container {
+
+    margin-top: 40px;
+
+    color: white;
+    /* White text color */
+    margin-top: 30px
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust spacing as needed */
+  }
+  
+  .button-container button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button-container button:hover {
+    background-color: white;
+    color: #2CA089;
+  }
+
+
+ /* Main Container Styling */
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers the card horizontally */
+    align-items: center;
+    gap: 30px; 
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+  }
+  
+  /* Card Styling */
+  .card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    border-radius: 10px; 
+   
+    padding: 20px; 
+       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .card img {
+    width: 110%; 
+    height: 25vh; 
+    border-radius: 10px; 
+    margin-bottom: 15px;
+    margin-top: 0; 
+  }
+  
+  .card p {
+    font-size: 16px; 
+    color: white; 
+    margin: 0;
+    margin-top: 70px;
+  }
+  

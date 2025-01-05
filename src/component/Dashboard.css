@@ -1,0 +1,147 @@
+.sidebar {
+  width: 250px;
+  background-color: #11e7b8;
+  color: #ffffff;
+  
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: hsl(0, 0%, 100%);
+}
+
+.patient-logo {
+
+  width: 30px;
+  height: 30px;
+}
+
+.message-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.medication-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.setting-logo {
+  width: 30px;
+  height: 30px;
+
+}
+
+.logout-logo {
+  width: 30px;
+  height: 30px;
+
+
+}
+
+.Documents-details {
+
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar-subtitle {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.dashboard-container {
+
+  width: 200px;
+  background-color: #e8d9d9
+}
+.sidebar-menu .menu-item img {
+  filter: brightness(0.9); /* Reduces brightness to make the image darker */
+}
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  flex: 1;
+  /* Makes the menu expand to fill available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Ensures even spacing for menu items */
+  margin-top: 40px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: background 0.3s, border-radius 0.3s;
+  border-radius: 10px;
+  font-weight: bold;
+  /* Default border radius for all items */
+}
+
+.menu-item span {
+  margin-left: 10px;
+  font-size: 1rem;
+  
+
+}
+
+
+.document {
+
+  text-align: start;
+
+}
+
+.menu-item:hover {
+  background-color: #1CA384;
+}
+
+.menu-item.active {
+  background-color: #ffffff;
+  /* Set a white background for the active item */
+  color: #1CA384;
+  /* Set text color for active item */
+  border-radius: 20px;
+  /* Larger radius for a pill-like shape */
+  font-weight: bold;
+  /* Optional: Makes the text bold */
+}
+
+.menu-item.active span {
+
+  color: #007b64;
+}
+
+
+.dashimg {
+
+  height: 30px;
+
+}
+
+.menu-item.logout {
+  margin-top: auto;
+  color: #e8d9d9;
+}
+
+.menu-item.logout:hover {
+  background-color: #ff3333;
+}
+
+.icon-dashboard,
+.icon-patients,
+.icon-message,
+.icon-medications,
+.icon-documents,
+.icon-settings,
+.icon-logout {
+  font-size: 1.2rem;
+}

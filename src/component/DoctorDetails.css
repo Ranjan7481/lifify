@@ -1,0 +1,141 @@
+/* General Container Styling */
+.doctor-details-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #28CDA7;
+  border-radius: 15px;
+  padding: 30px;
+  width: 60%;
+  height: 80vh;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  border: 5px solid #f8dede;
+  position: relative;
+}
+
+/* Doctor Details Section */
+.doctor-details {
+  background-color: #1F7552;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  height: 30vh;
+  margin-top: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.doctor-details p {
+  font-size: 1.1em;
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.doctor-card {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #61DAAA;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    
+  
+    margin-right: 40px;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img-container img {
+  width: 150px; 
+  height: 150px;
+  border-radius: 10px; 
+  object-fit: cover; 
+  margin-bottom: 15px;
+}
+
+.img-container p:first-child {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.img-container p:last-child {
+  color: white;
+  font-weight: bold;
+}
+
+ .stats{
+  display: flex;
+  gap: 15px;
+  color: #f8dede;
+ }
+.stats p {
+  font-size: 0.6em;
+  margin: 5px 0;
+  text-align: start;
+}
+.title{
+ 
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 60%;
+  margin-left: 50px;
+  text-align: left;
+  background-color: transparent;
+  font-family: 'Arial', sans-serif;
+
+}
+.title h1{
+
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-decoration: underline
+}
+
+/* Description Section - Bottom Left */
+.Description {
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+  margin-bottom: 30px;
+  width: 60%;
+  text-align: left;
+  background-color: transparent;
+  font-family: 'Arial', sans-serif;
+}
+
+.Description h1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.Description p {
+  font-size: 0.9em;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .doctor-details-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .doctor-details,
+  .doctor-card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+ 
+}
